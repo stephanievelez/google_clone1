@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.header {
+	position:relative;
+	width:100%;
+	background-color:black;
+}
+
+table {
+	background-color: black;
+	display:inline-block;
+	width:100%;
+}
+
+td {
+	font-family:Arial, sans-serif;
+	color:#CAD7DE;
+	text-align:center;
+	border:10px solid black;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.sign_container {
+	width:100%;
+	float:right;
+	
+}
+.sign_in {
+	margin-left:0px;
+	margin-top:20px;
+	margin-right:20px;
+	border-radius:2px;
+	background-color:red;
+	font-size:11px;
+	color:white;
+	text-transform:uppercase;
+	height:30px;
+	width:70px;
+	text-align:center;
+	line-height:30px;
+	float:right;
+}
+
+section {
+	text-align:center;
+	margin-top:150px;;
+}
+
+.image{
+	width:100%;
+	
+}
+
+
+img {
+	height: 90px;
+	width: 275px;
+}
+
+.text_input {
+	margin-top:10px;
+	text-align: center;
+}
+
+input {
+	width: 550px;
+	height: 20px;
+
+}
+
+.buttons {
+	margin-top:10px;
+	background-color:white;
+	text-align:center;
+}
+
+#search {
+	text-align:center;
+	border-radius:2px;
+	border: 1px solid #DDE9F0;
+	color: black;
+	background-color:#F1EDF2;
+	width:100px;
+	height:30px;
+	font-family: Arial;
+	font-weight:bold;
+	display:inline-block;
+	font-size:11px;
+	line-height:30px;
+}
+
+
+#lucky {
+	text-align:center;
+	border-radius:2px;
+	border: 1px solid #DDE9F0;
+	color: black;
+	background-color:#F1EDF2;
+	width:200px;
+	margin-left:10px;
+	font-family:Arial;
+	display:inline-block;
+	font-weight:bold;
+	width:150px;
+	height:30px;
+	line-height:30px;
+	font-size:11px;
+}
+
+footer {
+	
+	border-top:1px solid #DDE9F0;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	
+}
+
+.end {
+	float:right;
+}
+
+.footer {
+	display:inline-block;
+	border:none;
+	background-color:white;
+}
+
+
+.bottom {
+	font-family:Arial, sans-serif;
+	color:gray;
+	text-align:center;
+	border:10px solid white;
+	font-size:13px;
+	font-weight:lighter;
+}
